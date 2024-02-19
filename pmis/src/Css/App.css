@@ -1,0 +1,61 @@
+.app-container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #00f;
+  padding-bottom: 10px;
+}
+
+.app-title {
+  margin: 0;
+}
+
+.login-container {
+  display: flex;
+  align-items: center;
+}
+
+.login-container p {
+  margin-left: 10px;
+}
+
+.app-nav {
+  margin-top: 20px;
+}
+
+.menu-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-list li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.menu-list li a {
+  color: #00f;
+  text-decoration: none;
+}
+
+.menu-list li a:hover {
+  text-decoration: underline;
+}
+
+.app-main {
+  margin-top: 20px;
+}
+
+.app-footer {
+  margin-top: 20px;
+  border-top: 2px solid #00f;
+  padding-top: 10px;
+}
